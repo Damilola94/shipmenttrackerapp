@@ -49,10 +49,6 @@ const App: React.FC = () => {
           headerShown: false,
           gestureEnabled: true,
           gestureDirection: 'horizontal',
-          transitionSpec: {
-            open: config,
-            close: closeConfig,
-          },
           cardStyleInterpolator: CardStyleInterpolators.forHorizontalIOS,
         }}
         >
